@@ -1,0 +1,298 @@
+html{
+    font-family: sans-serif;
+
+}
+
+body{
+ background-color: #210f3f; 
+     
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    min-height: 100vh; /* Definir uma altura mínima para o osition: relative; /* Adicionar posição relativa ao header */
+    background-color: #0b001e
+}
+
+
+
+
+.logo-header{
+    text-align: center;
+   width: 4em;
+   height: auto;
+  
+}
+
+.header-nav{
+background-color:#6d2d6b ;
+display:none;
+
+}
+
+.header-nav.show{
+    display: block;
+}
+
+
+ul{
+    margin: 0%;
+    
+}
+
+.header-nav ul{
+    list-style-type: none;
+    padding: 0%;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .7em;
+    display: flex; /* Tornar a lista um contêiner flexível */
+    flex-direction: column; /* Alinhar os itens verticalmente */
+    gap: 2em; /* Adicionar espaço vertical entre os itens (ajuste conforme necessário) */
+    justify-content: space-between; /* Adicionar espaço entre os itens verticalmente */
+    height: 100%; /* Defina a altura da lista para que ela ocupe toda a altura disponível */
+    position: relative; /* Adicionar posição relativa ao elemento pai */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+    
+   
+}
+
+    
+ 
+
+.header-nav li {
+    display: block; /* Certifique-se de que cada item do menu seja exibido como um bloco */
+    flex-grow: 2; /* Faça com que os itens cresçam igualmente para ocupar o espaço disponível */
+    line-height: 3em;
+    position: relative; /* Adicionar posição relativa ao elemento filho */
+}
+   
+
+
+
+/* Criar espaço antes do primeiro item */
+.header-nav li:first-child::before {
+    content: "";
+    height: 1em; /* Defina a altura desejada para o espaço antes do primeiro item */
+    display: block;
+}
+
+/* Criar espaço depois do último item */
+.header-nav li:last-child::after {
+    content: "";
+    height: 1em; /* Defina a altura desejada para o espaço depois do último item */
+    display: block;
+}
+
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    
+    
+    
+    
+}
+
+
+.header-nav li:hover{
+    background-color: rgb(153, 17, 177);
+        
+}
+
+.header-nav li:hover a {
+    color: black;
+}
+
+.fundo{
+    background-image: url(imgs/ferenc-horvath-skcFiBu91AA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#hab{
+    background-color:#6d2d6b;
+    color:rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    gap: 0.3em;
+    cursor: pointer;
+    font-size: 3em;
+}
+.fundo{
+background-image: url(imgs/ferenc-horvath-skcFiBu91AA-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.pai1{
+    color: white;
+    text-align: center;
+}
+
+.pai2{
+    color: white;
+    text-align: center;
+}
+
+#Sobremim{
+    text-align: center;
+     padding-top: 3em;
+     background-color: #492877;
+}
+
+#JornadaElasnatech{
+    text-align: center;
+    background-color: #6d2d6b;
+    margin-top: 0%;
+}
+
+.tamanho{
+    width: 8em;
+   
+  
+    
+}
+
+#Desafios{
+    text-align: center;
+    background-color: #492877;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#Conquistas{
+    text-align: center;
+    background-color: #6d2d6b;
+}
+
+#Aprendizados{
+    text-align: center;
+    background-color:#492877 ;
+}
+
+#Projetos{
+    text-align: center;
+    background-color: #6d2d6b;
+
+}
+
+#Depoimentos{
+text-align: center;
+background-color: #492877;
+}
+
+#Contatos{
+    background-color:#6d2d6b ;
+   
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding: .2em;
+    align-items: center;
+}
+
+
+.caixa7 h2{
+    text-align: center;
+   
+}
+
+.caixa9{
+    text-align: center;
+}
+
+.caixa10{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color:#492877 ;
+    padding: .3em;
+}
+
+P{
+    color: aliceblue;
+}
+
+h2{
+    color: white;
+}
+
+
+
+section {
+    margin: 0;
+}
+
+    @media screen and (min-width:48em){
+          #hab{
+            display:none;
+        }
+    
+    .header-1{
+      display: flex;  
+      justify-content: space-between;   
+      align-items: center;
+      background-color:#0b001e;
+     
+    
+    }
+
+   .logo-header{
+        width: 4em;
+        height: auto;
+        position: relative; /* Adicione position: relative; ao logotipo */
+        transform: translate(0.5em, 0em); /* Ajuste os valores de translate conforme necessário */
+
+
+    }
+
+  
+      .header-nav{
+        display: block;
+      }
+     
+        .header-nav ul{
+            margin-right: 0.5em;
+            font-size: .5em;
+            display: flex; 
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #0b001e;
+
+             
+
+
+    }
+    
+    .header-nav li{
+                
+        display: inline-block;}
+ 
+
+#itens-menu{
+    align-items: baseline;
+
+    }
+
+
+
+    }
+
+        
+
+    
+
