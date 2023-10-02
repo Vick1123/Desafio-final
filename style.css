@@ -30,19 +30,14 @@ body{
     text-align: center; /* Centraliza a logo horizontalmente */
   }
   
-  /* Estilos para a logo-header */
-  .logo-header {
-    width: 4em;
-    height: auto;
-  }
   
-  /* Estilos para o menu-container (seu ícone do menu) */
   
+
   
 .logo-header{
-    text-align: center;
+text-align: center;
    width: 4em;
-   height: auto;
+   height: auto; /* Estilos para a logo-header */
   
 }
 
@@ -341,198 +336,107 @@ section {
         background-color: #5b00da; /* Cor de fundo ao passar o mouse sobre o botão */
     }
 
-    .caixa2 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
+    
+    .caixa-imagem {
+        display: flex;
+        flex-direction: column; /* Alinhe os elementos verticalmente */
+        align-items: center; /* Centralize verticalmente */
+        width: 100%;
+        max-width: 800px; /* Ajuste conforme necessário */
+        margin: 0 auto; /* Centralize horizontalmente */
+        padding: 20px; /* Adicione preenchimento para espaçamento interno */
+        text-align: center; /* Centralize o texto horizontalmente */
       }
       
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa2:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;
+      .caixa-imagem:hover {
+        transform: scale(1.1); /* Aumenta o tamanho da caixa ao passar o mouse */
+      }
+      
+      /* Estilos para as imagens dentro das caixas */
+      .caixa-imagem img {
+        max-width: 100%; /* Ajuste a largura máxima conforme necessário */
+        height: auto; /* Mantenha a proporção da imagem */
+        display: block; /* Remova espaços em branco abaixo da imagem */
+        margin: 0 auto; /* Centralize horizontalmente */
+      }
+      
+      /* Estilos para os títulos das caixas */
+      .caixa-imagem h2 {
+        color: white;
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+      }
+      
+      /* Estilos para os parágrafos das caixas */
+      .caixa-imagem p {
+        color: white;
+        text-align: center;
+        font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
       }
       
     
-    .caixa2 {
-        text-align: center;
-      }
-      
-      .caixa2 .tamanho {
-        width: 10em;
-        margin: 0 auto; /* Centralizar a imagem horizontalmente */
-        display: block;
-      }
-      
-      .caixa2 h2 {
-        text-align: center;
-      }
-      
-      .caixa2 p {
-        text-align: center;
-      }
-      
-
-
-
-      .caixa3 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
-      }
-      
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa3:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;
-      }
-      
-    
-    .caixa3 {
-        text-align: center;
-      }
-      
-      .caixa3 .tamanho {
-        width: 10em;
-        margin: 0 auto; /* Centralizar a imagem horizontalmente */
-        display: block;
-      }
-      
-      .caixa3 h2 {
-        text-align: center;
-      }
-      
-      .caixa3 p {
-        text-align: center;
-      }
-      
-
-
-
-      
-      .caixa3 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
-      }
-      
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa3:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;
-      }
-      
-    
-    .caixa4 {
-        text-align: center;
-      }
-      
-      .caixa4 .tamanho {
-        width: 10em;
-        margin: 0 auto; /* Centralizar a imagem horizontalmente */
-        display: block;
-      }
-      
-      .caixa4 h2 {
-        text-align: center;
-      }
-      
-      .caixa4 p {
-        text-align: center;
-      }
-      
-
-       
-      .caixa3 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
-      }
-      
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa3:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;
-      }
-      
-
-
-    
-      .caixa4 {
-        text-align: center;
-      }
-      
-      .caixa4 .tamanho {
-        width: 10em;
-        margin: 0 auto; /* Centralizar a imagem horizontalmente */
-        display: block;
-      }
-      
-      .caixa4 h2 {
-        text-align: center;
-      }
-      
-      .caixa4 p {
-        text-align: center;
-      }
-      
-      .caixa4 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
-      }
-      
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa4:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;}
-
-
-    
-    .caixa5 {
-        text-align: center;
-      }
-      
-      .caixa5 .tamanho {
-        width: 10em;
-        margin: 0 auto; /* Centralizar a imagem horizontalmente */
-        display: block;
-      }
-      
-      .caixa5 h2 {
-        text-align: center;
-      }
-      
-      .caixa5 p {
-        text-align: center;
-      }
-      
-      .caixa5 {
-        width: 5em;
-        transition: transform 0.3s ease; /* Adicionar transição suave */
-        margin-left: 7em;
-      }
-      
-      /* Efeito de aumento quando o mouse passa sobre as imagens com a classe 'img' */
-      .caixa5:hover {
-        transform: scale(1.1); /* Aumenta o fator de escala para o efeito de aumento */
-        align-items: center;
-      }
-
-
 
       
 
 
     @media screen and (min-width:48em){
-          #hab{
-            display:none;
-        }
-    
-    
-    }
-
+     
         
+            #hab {
+              display: none;
+            }
+            
+          
+            header {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              background-color: #0b001e;
+            }
+          
+            .logo-header {
+              margin-left: 2em;
+            }
 
+            .header-nav{
+                display: block;
+            }
+          
+            .header-nav ul {
+                background-color: #0b001e;;
+                display: flex; /* Alterar para exibição flexível para colocar os itens na horizontal */
+                flex-direction: row; /* Alinhar os itens horizontalmente */
+                gap: 2em; /* Espaço entre os itens (ajuste conforme necessário) */
+                justify-content: center; /* Alinhar os itens no centro horizontalmente */
+                align-items: center; /* Alinhar os itens no centro verticalmente */
+                height: auto; /* Redefinir a altura para que ela se ajuste automaticamente ao conteúdo */
+              }
+              
+              .header-nav li {
+                margin-right: 2em; /* Opcional: Adicione espaço entre os itens do menu */
+                font-size: .5em; /* Ajuste o tamanho da fonte conforme necessário */
+
+              }
+            
+              .header-nav li{
+                border-radius: 2px;
+              }
+            
+             section{
+                background-image: url(imgs/f.jpg);
+                background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
+                
+             }
+              
     
 
+
+  }
+              
+            
+            
+            
+            
+            
+          
+        
