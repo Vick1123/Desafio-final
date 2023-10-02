@@ -201,7 +201,7 @@ background-color: #492877;
 
 #Contatos{
     background-color:#6d2d6b ;
-    P;
+    
    
 }
 
@@ -257,9 +257,9 @@ section {
 }
 
 .video-container {
-    width: 30em; /* Largura desejada para os quadrados */
+    width:  30em; /* Largura desejada para os quadrados */
     height: 20em; /* Altura desejada para os quadrados */
-    margin: 3em;
+    margin: 0em;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -320,7 +320,7 @@ section {
     }
     
     .botao-2 li {
-        margin: 10px 0; /* Adicionar margem entre os itens da lista */
+        margin: 0.625em 0; /* Adicionar margem entre os itens da lista */
     }
     
     .botao-2 a {
@@ -342,9 +342,9 @@ section {
         flex-direction: column; /* Alinhe os elementos verticalmente */
         align-items: center; /* Centralize verticalmente */
         width: 100%;
-        max-width: 800px; /* Ajuste conforme necessário */
+        max-width:50em; /* Ajuste conforme necessário */
         margin: 0 auto; /* Centralize horizontalmente */
-        padding: 20px; /* Adicione preenchimento para espaçamento interno */
+        padding: 1.25em; /* Adicione preenchimento para espaçamento interno */
         text-align: center; /* Centralize o texto horizontalmente */
       }
       
@@ -371,7 +371,7 @@ section {
       .caixa-imagem p {
         color: white;
         text-align: center;
-        font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 1.125em; /* Ajuste o tamanho da fonte conforme necessário */
       }
       
     
@@ -420,6 +420,9 @@ section {
             
               .header-nav li{
                 border-radius: 2px;
+                margin-right: 2em;
+                font-size: 0.5em;
+   
               }
             
              section{
@@ -427,11 +430,135 @@ section {
                 background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
                 
              }
-              
+
+             .video-container {
+                display: none; /* Oculta a seção de vídeos */
+              }
+              .imagem-for-desktop {
+                display: block; /* Certifique-se de que a imagem seja exibida em telas maiores */
+              }
+
+              .projeto-imagem {
+                max-width: auto; /* Defina a largura máxima desejada */
+                max-height: auto; /* Defina a altura máxima desejada */
+                width: 300%;
+                height: 100%;
+            }
+            
+            
+            .imagem-for-desktop {
+                width: calc(33.33% - 1.875em); /* 33.33% de largura com 20px de espaçamento entre as colunas */
+                margin: 0; /* Remova a margem externa */
+                box-sizing: border-box;
+            }
+            
+            .projeto-imagens-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr); /* Três colunas de largura igual */
+                gap: 1em; /* Espaçamento entre as imagens */
+                justify-content: center; /* Centralize horizontalmente */
+                align-content: center; /* Centralize verticalmente */
+                margin: 0 auto; /* Centralize o container horizontalmente */
+                max-width: 90%; /* Limite máximo de largura para o conteúdo */
+            }
+            
+           
+
+            .botao-2 a {
+                background-color: #0b001e;
+            }
+             
+
+            .botao a {
+                background-color: #0b001e;
+            }
+
+          .botao{
+            text-align: center;
+          }
+
+        
+          
+          .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200%;
+            background-color: rgba(255, 255, 255, 0.9);
+            z-index: 1000;
+            overflow: auto;
+            max-height: 70%; /* Defina a altura máxima desejada (80% da tela, por exemplo) */
+          }
+          
+          .popup-content {
+            width: 100%; /* Largura igual a 100% do viewport */
+            max-width: 100%; /* Largura máxima igual a 100% do viewport */
+            padding: 1em; /* 20 pixels convertidos para em */
+            background-color: rgb(247, 247, 247);
+            border: 0.0625em solid #ccc; /* 1 pixel convertido para em */
+            box-shadow: 0 0.25em 0.5em rgb(255, 255, 255); /* 4 pixels e 8 pixels convertidos para em */
+            position: absolute;
+            top: 0;
+            left: 50%; /* Centraliza horizontalmente */
+            transform: translateX(-50%); /* Centraliza horizontalmente */
+          }
+          
+          .popup-titulo {
+            font-size: 24px; /* Tamanho da fonte do título */
+            font-weight: bold; /* Negrito para o título, se desejado */
+            color: #000000; /* Cor do texto do título */
+            margin-bottom: 10px; /* Espaçamento inferior do título */
+        }
+        
+        .popup-texto {
+            font-size: 18px; /* Tamanho da fonte do texto */
+            color: #000000; /* Cor do texto do conteúdo */
+            line-height: 1.4; /* Altura da linha para melhor legibilidade */
+        } 
+          
+ /* Estilize o container dos contatos para usar flexbox */
+.contatos-container {
+    display: flex; /* Torna o container um flex container */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro (opcional) */
+}
+
+/* Estilize as imagens dos contatos (mantendo suas classes existentes) */
+.logo {
+    margin: 0 10px; /* Adicione margem horizontal entre as imagens */
+}
+
+/* Restante do seu estilo existente */
+
+
+
+    }
+            
+                                   
+  
+  
+            
     
 
 
+   /* Estilos para telas menores (até 768px) */
+         @media (max-width: 48em) {
+         .videos-container {
+               display: block; /* Mostra a seção de vídeos */
+                     }
+                        .imagem-for-desktop {
+                           display: none; /* Oculta a seção de imagens */
+                              }
   }
+  
+  
+  
+    
+  
+            
+
+  
               
             
             
