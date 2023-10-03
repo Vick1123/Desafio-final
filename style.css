@@ -505,14 +505,14 @@ section {
           }
           
           .popup-titulo {
-            font-size: 24px; /* Tamanho da fonte do título */
+            font-size: 1.5em; /* Tamanho da fonte do título */
             font-weight: bold; /* Negrito para o título, se desejado */
             color: #000000; /* Cor do texto do título */
-            margin-bottom: 10px; /* Espaçamento inferior do título */
+            margin-bottom: 0.625em; /* Espaçamento inferior do título */
         }
         
         .popup-texto {
-            font-size: 18px; /* Tamanho da fonte do texto */
+            font-size: 1.125em; /* Tamanho da fonte do texto */
             color: #000000; /* Cor do texto do conteúdo */
             line-height: 1.4; /* Altura da linha para melhor legibilidade */
         } 
@@ -526,22 +526,16 @@ section {
 
 /* Estilize as imagens dos contatos (mantendo suas classes existentes) */
 .logo {
-    margin: 0 10px; /* Adicione margem horizontal entre as imagens */
+    margin: 0 0.625em; /* Adicione margem horizontal entre as imagens */
 }
 
-/* Restante do seu estilo existente */
-
+.tamanho{
+    font-size: 1em;
+}
 
 
     }
             
-                                   
-  
-  
-            
-    
-
-
    /* Estilos para telas menores (até 768px) */
          @media (max-width: 48em) {
          .videos-container {
