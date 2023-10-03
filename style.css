@@ -1,123 +1,143 @@
-html{
+html {
     font-family: sans-serif;
 
 }
 
-body{
- background-color: #210f3f; 
- text-transform: uppercase;
- font-family: 'Roboto', sans-serif;
+body {
+    background-color: #210f3f;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 
 
-     
+
 }
 
-.header{
+.header {
     text-align: center;
     margin: auto;
-    min-height: 100vh; /* Definir uma altura mínima para o osition: relative; /* Adicionar posição relativa ao header */
+    min-height: 100vh;
+    /* Definir uma altura mínima para o osition: relative; /* Adicionar posição relativa ao header */
     background-color: #0b001e
 }
+
 /* Estilos para a barra de navegação (navbar) */
 .navbar {
-    align-items: center; /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
     background-color: #070407;
-    
-  }
-  
-  /* Estilos para a logo-container */
-  .logo-container {
-    text-align: center; /* Centraliza a logo horizontalmente */
-  }
-  
-  
-  
 
-  
-.logo-header{
-text-align: center;
-   width: 4em;
-   height: auto; /* Estilos para a logo-header */
-  
-}
 
-.header-nav{
-background-color:#6d2d6b ;
-display:none;
 
 }
 
-.header-nav.show{
+
+
+/* Estilos para a logo-container */
+.logo-container {
+    text-align: center;
+    /* Centraliza a logo horizontalmente */
+}
+
+
+
+
+
+.logo-header {
+    text-align: center;
+    width: 4em;
+    height: auto;
+    /* Estilos para a logo-header */
+
+}
+
+.header-nav {
+    background-color: #6d2d6b;
+    display: none;
+
+}
+
+.header-nav.show {
     display: block;
 }
 
 
-ul{
+ul {
     margin: 0%;
-    
+
 }
 
-.header-nav ul{
+.header-nav ul {
     list-style-type: none;
     padding: 0%;
     text-transform: uppercase;
     letter-spacing: .2em;
     font-size: .7em;
-    display: flex; /* Tornar a lista um contêiner flexível */
-    flex-direction: column; /* Alinhar os itens verticalmente */
-    gap: 2em; /* Adicionar espaço vertical entre os itens (ajuste conforme necessário) */
-    justify-content: space-between; /* Adicionar espaço entre os itens verticalmente */
-    height: 100%; /* Defina a altura da lista para que ela ocupe toda a altura disponível */
-    position: relative; /* Adicionar posição relativa ao elemento pai */
+    display: flex;
+    /* Tornar a lista um contêiner flexível */
+    flex-direction: column;
+    /* Alinhar os itens verticalmente */
+    gap: 2em;
+    /* Adicionar espaço vertical entre os itens (ajuste conforme necessário) */
+    justify-content: space-between;
+    /* Adicionar espaço entre os itens verticalmente */
+    height: 100%;
+    /* Defina a altura da lista para que ela ocupe toda a altura disponível */
+    position: relative;
+    /* Adicionar posição relativa ao elemento pai */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
-    
-   
+
+
+
 }
 
-    
- 
+
+
 
 .header-nav li {
-    display: block; /* Certifique-se de que cada item do menu seja exibido como um bloco */
-    flex-grow: 2; /* Faça com que os itens cresçam igualmente para ocupar o espaço disponível */
+    display: block;
+    /* Certifique-se de que cada item do menu seja exibido como um bloco */
+    flex-grow: 2;
+    /* Faça com que os itens cresçam igualmente para ocupar o espaço disponível */
     line-height: 3em;
-    position: relative; /* Adicionar posição relativa ao elemento filho */
+    position: relative;
+    /* Adicionar posição relativa ao elemento filho */
 }
-   
+
 
 
 
 /* Criar espaço antes do primeiro item */
 .header-nav li:first-child::before {
     content: "";
-    height: 1em; /* Defina a altura desejada para o espaço antes do primeiro item */
+    height: 1em;
+    /* Defina a altura desejada para o espaço antes do primeiro item */
     display: block;
 }
 
 /* Criar espaço depois do último item */
 .header-nav li:last-child::after {
     content: "";
-    height: 1em; /* Defina a altura desejada para o espaço depois do último item */
+    height: 1em;
+    /* Defina a altura desejada para o espaço depois do último item */
     display: block;
 }
 
 
-.header-nav a{
+.header-nav a {
     color: white;
     text-decoration: none;
     font-size: 2em;
-    
-    
-    
-    
+
+
+
+
 }
 
 
-.header-nav li:hover{
+.header-nav li:hover {
     background-color: rgb(153, 17, 177);
-        
+
 }
 
 .header-nav li:hover a {
@@ -126,121 +146,124 @@ ul{
 
 
 
-#hab{
-    background-color:#6d2d6b;
-    color:rgb(0, 0, 0);
+#hab {
+    background-color: #6d2d6b;
+    color: rgb(0, 0, 0);
     display: block;
     text-align: center;
     gap: 0.3em;
     cursor: pointer;
-    font-size: 3em;  
+    font-size: 3em;
 }
 
 
-.pai1{
+.pai1 {
     color: white;
     text-align: center;
 }
 
-.pai2{
+.pai2 {
     color: white;
     text-align: center;
 }
 
-#Sobremim{
+#Sobremim {
     text-align: center;
-     padding-top: .5em;
-     background-color: #492877;
+    padding-top: .5em;
+    background-color: #492877;
 }
 
-#JornadaElasnatech{
+#JornadaElasnatech {
     text-align: center;
     background-color: #6d2d6b;
     margin-top: 0%;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
-.tamanho{
+.tamanho {
     width: 10em;
     padding-top: 0;
 
 
-   
-  
-    
+
+
+
 }
 
-#Desafios{
+#Desafios {
     text-align: center;
     background-color: #492877;
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
 
-#Conquistas{
+#Conquistas {
     text-align: center;
     background-color: #6d2d6b;
 }
 
-#Aprendizados{
+#Aprendizados {
     text-align: center;
-    background-color:#492877 ;
+    background-color: #492877;
 }
 
 
-#Projetos{
+#Projetos {
     text-align: center;
     background-color: #6d2d6b;
 
 }
 
-#Depoimentos{
-text-align: center;
-background-color: #492877;
+#Depoimentos {
+    text-align: center;
+    background-color: #492877;
 }
 
-#Contatos{
-    background-color:#6d2d6b ;
-    
-   
+#Contatos {
+    background-color: #6d2d6b;
+
+
 }
 
-.logo{
+.logo {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
-    align-items: center;}
-
-
-.caixa7 h2{
-    text-align: center;
-   
+    margin-bottom: 1em;
+    align-items: center;
 }
 
-.caixa9{
+
+.caixa7 h2 {
     text-align: center;
+
 }
 
-.caixa10{
+.caixa9 {
     text-align: center;
 }
 
-footer{
+.caixa10 {
     text-align: center;
-    background-color:#492877 ;
-    padding: .2em;
+}
+
+footer {
+    text-align: center;
+    background-color: #492877;
+    padding: .1em;
     color: azure;
+    font-size: 50%;
 }
 
-P{
+P {
     color: aliceblue;
 }
 
-h2{
+h2 {
     color: white;
     font-family: 'Poiret One', cursive;
 }
-Ul{
+
+Ul {
     color: azure;
 }
 
@@ -252,13 +275,17 @@ section {
 #Projetos {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centralize os vídeos verticalmente */
-    gap: 1em; /* Espaço entre os vídeos */
+    align-items: center;
+    /* Centralize os vídeos verticalmente */
+    gap: 1em;
+    /* Espaço entre os vídeos */
 }
 
 .video-container {
-    width:  30em; /* Largura desejada para os quadrados */
-    height: 20em; /* Altura desejada para os quadrados */
+    width: 20em;
+    /* Largura desejada para os quadrados */
+    height: 10em;
+    /* Altura desejada para os quadrados */
     margin: 0em;
     position: relative;
     overflow: hidden;
@@ -270,334 +297,346 @@ section {
     height: 100%;
     object-fit: cover;
     border: none;
-    margin-bottom: 1em; /* Espaço entre os vídeos */
+    margin-bottom: 1em;
+    /* Espaço entre os vídeos */
 }
 
 /* Limpe o espaço abaixo do último vídeo */
 .tamanho-video:last-child {
-    margin-bottom: 0;}
+    margin-bottom: 0;
+}
 
-    #Sobremim,
-    #JornadaElasnatech,
-    #Desafios,
-    #Conquistas,
-    #Aprendizados,
-    #Projetos,
-    #Depoimentos,
-    #Contatos {
-        margin-bottom: 0; /* Defina a margem inferior como zero */
-        padding: 5em;
+#Sobremim,
+#JornadaElasnatech,
+#Desafios,
+#Conquistas,
+#Aprendizados,
+#Projetos,
+#Depoimentos,
+#Contatos {
+    margin-bottom: 0;
+    /* Defina a margem inferior como zero */
+    padding: 2em;
+}
+
+
+.botao ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    /* Centralizar o texto do botão horizontalmente */
+}
+
+.botao li {
+    margin: 0.625em 0;
+    /* Adicionar margem entre os itens da lista */
+}
+
+.botao a {
+    display: inline-block;
+    background-color: #6d2d6b;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Cor do texto do botão */
+    text-decoration: none;
+    padding: 0.625em 1.25em;
+    /* Espaçamento interno do botão (ajuste conforme necessário) */
+    border-radius: 5px;
+    /* Borda arredondada do botão */
+}
+
+.botao a:hover {
+    background-color: #5b00da;
+    /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+
+.caixa-imagem {
+    display: flex;
+    flex-direction: column;
+    /* Alinhe os elementos verticalmente */
+    align-items: center;
+    /* Centralize verticalmente */
+    width: 100%;
+    max-width: 50em;
+    /* Ajuste conforme necessário */
+    margin: 0 auto;
+    /* Centralize horizontalmente */
+    padding: 1.25em;
+    /* Adicione preenchimento para espaçamento interno */
+    text-align: center;
+    /* Centralize o texto horizontalmente */
+}
+
+.caixa-imagem:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da caixa ao passar o mouse */
+}
+
+/* Estilos para as imagens dentro das caixas */
+.caixa-imagem img {
+    max-width: 100%;
+    /* Ajuste a largura máxima conforme necessário */
+    height: auto;
+    /* Mantenha a proporção da imagem */
+    display: block;
+    /* Remova espaços em branco abaixo da imagem */
+    margin: 0 auto;
+    /* Centralize horizontalmente */
+}
+
+/* Estilos para os títulos das caixas */
+.caixa-imagem h2 {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+/* Estilos para os parágrafos das caixas */
+.caixa-imagem p {
+    color: white;
+    text-align: center;
+    font-size: 1.125em;
+    /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+
+.contatos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Centraliza o texto horizontalmente. */
+}
+
+/* Estilos para a imagem e ícones de redes sociais (opcional) */
+.foto {
+    width: 6em;
+    /* Ajuste o tamanho da imagem conforme necessário. */
+
+
+}
+
+.foto img {
+    height: auto;
+    padding-bottom: 1em;
+
+
+}
+
+
+
+@media screen and (min-width:48em) {
+
+
+    #hab {
+        display: none;
     }
 
 
-    .botao ul {
-        list-style: none;
-        padding: 0;
-        text-align: center; /* Centralizar o texto do botão horizontalmente */
-    }
-    
-    .botao li {
-        margin: 0.625em 0; /* Adicionar margem entre os itens da lista */
-    }
-    
-    .botao a {
-        display: inline-block;
-        background-color: #6d2d6b; /* Cor de fundo do botão */
-        color: white; /* Cor do texto do botão */
-        text-decoration: none;
-        padding: 0.625em 1.25em; /* Espaçamento interno do botão (ajuste conforme necessário) */
-        border-radius: 5px; /* Borda arredondada do botão */
-    }
-    
-    .botao a:hover {
-        background-color: #5b00da; /* Cor de fundo ao passar o mouse sobre o botão */
-    }
-
-    .botao-2 ul {
-        list-style: none;
-        padding: 0;
-        text-align: center; /* Centralizar o texto do botão horizontalmente */
-    }
-    
-    .botao-2 li {
-        margin: 0.625em 0; /* Adicionar margem entre os itens da lista */
-    }
-    
-    .botao-2 a {
-        display: inline-block;
-        background-color: #6d2d6b; /* Cor de fundo do botão */
-        color: white; /* Cor do texto do botão */
-        text-decoration: none;
-        padding: 0.625em 1.25em; /* Espaçamento interno do botão (ajuste conforme necessário) */
-        border-radius: 5px; /* Borda arredondada do botão */
-    }
-    
-    .botao-2 a:hover {
-        background-color: #5b00da; /* Cor de fundo ao passar o mouse sobre o botão */
-    }
-
-    
-    .caixa-imagem {
+    header {
         display: flex;
-        flex-direction: column; /* Alinhe os elementos verticalmente */
-        align-items: center; /* Centralize verticalmente */
-        width: 100%;
-        max-width:50em; /* Ajuste conforme necessário */
-        margin: 0 auto; /* Centralize horizontalmente */
-        padding: 1.25em; /* Adicione preenchimento para espaçamento interno */
-        text-align: center; /* Centralize o texto horizontalmente */
-      }
-      
-      .caixa-imagem:hover {
-        transform: scale(1.1); /* Aumenta o tamanho da caixa ao passar o mouse */
-      }
-      
-      /* Estilos para as imagens dentro das caixas */
-      .caixa-imagem img {
-        max-width: 100%; /* Ajuste a largura máxima conforme necessário */
-        height: auto; /* Mantenha a proporção da imagem */
-        display: block; /* Remova espaços em branco abaixo da imagem */
-        margin: 0 auto; /* Centralize horizontalmente */
-      }
-      
-      /* Estilos para os títulos das caixas */
-      .caixa-imagem h2 {
-        color: white;
-        font-family: 'Poiret One', cursive;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0b001e;
+    }
+
+    .logo-header {
+        margin-left: 2em;
+    }
+
+    .header-nav {
+        display: block;
+    }
+
+    .header-nav ul {
+        background-color: #0b001e;
+        ;
+        display: flex;
+        /* Alterar para exibição flexível para colocar os itens na horizontal */
+        flex-direction: row;
+        /* Alinhar os itens horizontalmente */
+        gap: 2em;
+        /* Espaço entre os itens (ajuste conforme necessário) */
+        justify-content: center;
+        /* Alinhar os itens no centro horizontalmente */
+        align-items: center;
+        /* Alinhar os itens no centro verticalmente */
+        height: auto;
+        /* Redefinir a altura para que ela se ajuste automaticamente ao conteúdo */
+    }
+
+    .header-nav li {
+        margin-right: 2em;
+        /* Opcional: Adicione espaço entre os itens do menu */
+        font-size: .5em;
+        /* Ajuste o tamanho da fonte conforme necessário */
+
+    }
+
+    .header-nav li {
+        border-radius: 2px;
+        margin-right: 2em;
+        font-size: 0.5em;
+
+    }
+
+    section {
+        background-image: url(imgs/f.jpg);
+        background-size: cover;
+        /* Redimensiona a imagem para cobrir todo o fundo */
+
+    }
+
+    .video-container {
+        display: none;
+        /* Oculta a seção de vídeos */
+    }
+
+    .imagem-for-desktop {
+        display: block;
+        /* Certifique-se de que a imagem seja exibida em telas maiores */
+    }
+
+    .projeto-imagem {
+        max-width: auto;
+        /* Defina a largura máxima desejada */
+        max-height: auto;
+        /* Defina a altura máxima desejada */
+        width: 300%;
+        height: 100%;
+    }
+
+
+    .imagem-for-desktop {
+        width: calc(33.33% - 1.875em);
+        /* 33.33% de largura com 20px de espaçamento entre as colunas */
+        margin: 0;
+        /* Remova a margem externa */
+        box-sizing: border-box;
+    }
+
+    .projeto-imagens-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Três colunas de largura igual */
+        gap: 1em;
+        /* Espaçamento entre as imagens */
+        justify-content: center;
+        /* Centralize horizontalmente */
+        align-content: center;
+        /* Centralize verticalmente */
+        margin: 0 auto;
+        /* Centralize o container horizontalmente */
+        max-width: 90%;
+        /* Limite máximo de largura para o conteúdo */
+    }
+
+
+
+    .botao a {
+        background-color: #0b001e;
+    }
+
+    .botao {
         text-align: center;
-      }
-      
-      /* Estilos para os parágrafos das caixas */
-      .caixa-imagem p {
-        color: white;
+    }
+
+
+
+    /* Estilize o container dos contatos para usar flexbox */
+    .contatos-container {
+        display: flex;
+        /* Torna o container um flex container */
+        justify-content: center;
+        /* Alinha os itens horizontalmente ao centro */
+        align-items: center;
+        /* Alinha os itens verticalmente ao centro (opcional) */
+    }
+
+
+
+    .imagem-for-desktop {
+        transition: filter 0.3s ease;
+        /* Adicione uma transição suave para o efeito */
+    }
+
+    /* Quando o mouse estiver sobre a imagem, aplique o filtro de preto e branco */
+    .imagem-for-desktop:hover {
+        filter: grayscale(100%);
+    }
+
+
+
+
+    .contatos-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        font-size: 1.125em; /* Ajuste o tamanho da fonte conforme necessário */
-      }
-      
-    
+        /* Centraliza o texto horizontalmente. */
+        padding-bottom: 8em;
+    }
 
-      
+    /* Estilos para a imagem e ícones de redes sociais (opcional) */
+    .foto {
+        width: 5em;
+        /* Ajuste o tamanho da imagem conforme necessário. */
+    }
 
-
-    @media screen and (min-width:48em){
-     
-        
-            #hab {
-              display: none;
-            }
-            
-          
-            header {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              background-color: #0b001e;
-            }
-          
-            .logo-header {
-              margin-left: 2em;
-            }
-
-            .header-nav{
-                display: block;
-            }
-          
-            .header-nav ul {
-                background-color: #0b001e;;
-                display: flex; /* Alterar para exibição flexível para colocar os itens na horizontal */
-                flex-direction: row; /* Alinhar os itens horizontalmente */
-                gap: 2em; /* Espaço entre os itens (ajuste conforme necessário) */
-                justify-content: center; /* Alinhar os itens no centro horizontalmente */
-                align-items: center; /* Alinhar os itens no centro verticalmente */
-                height: auto; /* Redefinir a altura para que ela se ajuste automaticamente ao conteúdo */
-              }
-              
-              .header-nav li {
-                margin-right: 2em; /* Opcional: Adicione espaço entre os itens do menu */
-                font-size: .5em; /* Ajuste o tamanho da fonte conforme necessário */
-
-              }
-            
-              .header-nav li{
-                border-radius: 2px;
-                margin-right: 2em;
-                font-size: 0.5em;
-   
-              }
-            
-             section{
-                background-image: url(imgs/f.jpg);
-                background-size: cover; /* Redimensiona a imagem para cobrir todo o fundo */
-                
-             }
-
-             .video-container {
-                display: none; /* Oculta a seção de vídeos */
-              }
-              .imagem-for-desktop {
-                display: block; /* Certifique-se de que a imagem seja exibida em telas maiores */
-              }
-
-              .projeto-imagem {
-                max-width: auto; /* Defina a largura máxima desejada */
-                max-height: auto; /* Defina a altura máxima desejada */
-                width: 300%;
-                height: 100%;
-            }
-            
-            
-            .imagem-for-desktop {
-                width: calc(33.33% - 1.875em); /* 33.33% de largura com 20px de espaçamento entre as colunas */
-                margin: 0; /* Remova a margem externa */
-                box-sizing: border-box;
-            }
-            
-            .projeto-imagens-container {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr); /* Três colunas de largura igual */
-                gap: 1em; /* Espaçamento entre as imagens */
-                justify-content: center; /* Centralize horizontalmente */
-                align-content: center; /* Centralize verticalmente */
-                margin: 0 auto; /* Centralize o container horizontalmente */
-                max-width: 90%; /* Limite máximo de largura para o conteúdo */
-            }
-            
-           
-
-            .botao-2 a {
-                background-color: #0b001e;
-            }
-             
-
-            .botao a {
-                background-color: #0b001e;
-            }
-
-          .botao{
-            text-align: center;
-          }
-
-        
-          
-          .popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 200%;
-            background-color: rgba(255, 255, 255, 0.9);
-            z-index: 1000;
-            overflow: auto;
-            max-height: 70%; /* Defina a altura máxima desejada (80% da tela, por exemplo) */
-          }
-          
-          .popup-content {
-            width: 100%; /* Largura igual a 100% do viewport */
-            max-width: 100%; /* Largura máxima igual a 100% do viewport */
-            padding: 1em; /* 20 pixels convertidos para em */
-            background-color: rgb(247, 247, 247);
-            border: 0.0625em solid #ccc; /* 1 pixel convertido para em */
-            box-shadow: 0 0.25em 0.5em rgb(255, 255, 255); /* 4 pixels e 8 pixels convertidos para em */
-            position: absolute;
-            top: 0;
-            left: 50%; /* Centraliza horizontalmente */
-            transform: translateX(-50%); /* Centraliza horizontalmente */
-          }
-          
-          .popup-titulo {
-            font-size: 1.5em; /* Tamanho da fonte do título */
-            font-weight: bold; /* Negrito para o título, se desejado */
-            color: #000000; /* Cor do texto do título */
-            margin-bottom: 0.625em; /* Espaçamento inferior do título */
-        }
-        
-        .popup-texto {
-            font-size: 1.125em; /* Tamanho da fonte do texto */
-            color: #000000; /* Cor do texto do conteúdo */
-            line-height: 1.4; /* Altura da linha para melhor legibilidade */
-        } 
-          
- /* Estilize o container dos contatos para usar flexbox */
-.contatos-container {
-    display: flex; /* Torna o container um flex container */
-    justify-content: center; /* Alinha os itens horizontalmente ao centro */
-    align-items: center; /* Alinha os itens verticalmente ao centro (opcional) */
-}
-
-/* Estilize as imagens dos contatos (mantendo suas classes existentes) */
-.logo {
-    margin: 0 0.625em; /* Adicione margem horizontal entre as imagens */
-}
-
-.tamanho{
-    font-size: 1em;
-}
-
-
-
-
-
-.imagem-for-desktop{
-    transition: filter 0.3s ease; /* Adicione uma transição suave para o efeito */
-  }
-  
-  /* Quando o mouse estiver sobre a imagem, aplique o filtro de preto e branco */
-  .imagem-for-desktop:hover {
-    filter: grayscale(100%);
-  }
-  
- 
-  
-
-
-  
-
+    .foto img {
+        width: auto;
+        height: 4em;
+        padding-bottom: 0.4em;
 
 
     }
-            
-   /* Estilos para telas menores (até 768px) */
-         @media (max-width: 48em) {
-         .videos-container {
-               display: block; /* Mostra a seção de vídeos */
-                     }
-                        .imagem-for-desktop {
-                           display: none; /* Oculta a seção de imagens */
-                              }
-  }
-  
-  
-  video-container {
+
+
+    #Depoimentos video {
+        width: 40%;
+        /* Ajuste o valor do width conforme necessário */
+    }
+
+
+
+}
+
+/* Estilos para telas menores (até 768px) */
+@media (max-width: 48em) {
+    .videos-container {
+        display: block;
+        /* Mostra a seção de vídeos */
+    }
+
+    .imagem-for-desktop {
+        display: none;
+        /* Oculta a seção de imagens */
+    }
+}
+
+
+video-container {
     position: relative;
-    padding-bottom: 56.25%; /* Define a proporção de aspecto do vídeo (16:9) */
-    padding-top:1.875em; /* Espaço adicional acima do vídeo (opcional) */
+    padding-bottom: 56.25%;
+    /* Define a proporção de aspecto do vídeo (16:9) */
+    padding-top: 1.875em;
+    /* Espaço adicional acima do vídeo (opcional) */
     height: 0;
     overflow: hidden;
-  }
-  
-  .video-wrapper {
+}
+
+.video-wrapper {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  
-  .tamanho-video {
+}
+
+.tamanho-video {
     width: 100%;
     height: 100%;
-  }
-  
-    
-  
-            
-
-  
-              
-            
-            
-            
-            
-            
-          
-        
+}
