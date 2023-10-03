@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="img/x-icon">
+    <link rel="shortcut icon" href="imgs/estrangeiro.png" type="img/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
     <script src="javascript.js"></script>
@@ -31,8 +31,10 @@
  <span id="hab"class="material-symbols-outlined">
    &#9776; <!-- Caractere Unicode para o ícone do menu hamburguer -->
   </span>
-<nav id="itens-menu" class="header-nav">
-      <ul>
+  <main>
+      <nav id="itens-menu" class="header-nav">
+     
+  <ul>
         <li><a href="#Sobremim">Sobre mim</a></li>
         <li><a href="#JornadaElasnatech">Jornada Elas na tech</a></li>
         <li><a href="#Desafios">Desafios</a></li>
@@ -44,6 +46,7 @@
       </ul>
 
        </nav>
+    </main>
        
          <div class="menu-container">
            <!-- Seu ícone do menu hambuguer aqui -->
@@ -342,9 +345,17 @@
 
    <div class="caixa7">
 
+    <class="video-container">
+      
+      <video controls class="tamanho-video">
+          <source src="imgs/videos projetos/Vídeo sem título ‐ Feito com o Clipchamp.mp4" type="video/mp4">
+          Seu navegador não suporta a tag de vídeo.
+      </video>
+    
    </div>
 </section>
- 
+
+
 <section id="Contatos" class="contatos-container">
   <div class="logo">
      <a href="https://github.com/Vick1123?tab=repositories">
@@ -406,36 +417,6 @@
    });
 </script>
   
-<script>
-// Selecione todas as imagens com a classe "projeto-imagem"
-const imagens = document.querySelectorAll('.projeto-imagem');
-
-// Selecione o elemento do popup e os elementos de título e texto
-const popup = document.getElementById('popup');
-const popupTitulo = document.getElementById('popup-titulo');
-const popupTexto = document.getElementById('popup-texto');
-
-// Adicione um evento de clique a cada imagem
-imagens.forEach((imagem) => {
-  imagem.addEventListener('click', (aparecer) => {
-    // Obtenha os atributos de dados da imagem clicada
-    const titulo = imagem.getAttribute('data-titulo');
-    const texto = imagem.getAttribute('data-texto');
-
-    // Defina o conteúdo do popup com os dados da imagem clicada
-    popupTitulo.textContent = titulo;
-    popupTexto.textContent = texto;
-
-    // Exiba o popup no topo
-    popup.style.top = '0';
-    popup.style.display = 'block';
-  });
-});
-
-// Adicione um evento de clique ao popup para fechá-lo quando clicado
-popup.addEventListener('click', (Fechar) => {
-  popup.style.display = 'none';
-});
 
 
 
